@@ -59,6 +59,7 @@ ul.header_style3 li {
   color: black;
   text-decoration: none;
   font-size: 20px;
+  font-weight: bolder;
   padding-left: 20px;
 }
 .header_style3 icon:hover {
@@ -194,18 +195,68 @@ ul.header_style3 li {
 .col_white_amrc {
   color: #fff;
 }
-footer {
+/* footer {
   width: 100%;
   background-color: black;
   min-height: 250px;
   padding: 10px 0px 25px 0px;
+} */
+footer {
+  position: absolute;
+  background: black;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+footer .content {
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+  background-color: black;
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+footer .content .top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .content .top .media-icons a {
+  margin: 5px;
+}
+footer .content .link-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+footer .content .link-boxes .box {
+  width: calc(100% / 5 - 10px);
+  text-align: left;
+  padding: 20px;
+}
+footer .content .link-boxes .box .link_name {
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: left;
+}
+footer .content .link-boxes .box li {
+  list-style: none;
+  font-size: 12px;
+}
+footer .content .link-boxes .box li {
+  list-style: none;
+  font-size: 12px;
 }
 .pt2 {
   padding-top: 40px;
   margin-bottom: 20px;
 }
 footer p {
-  font-size: 13px;
+  font-size: 15px;
   color: #ccc;
   padding-bottom: 0px;
   margin-bottom: 8px;
